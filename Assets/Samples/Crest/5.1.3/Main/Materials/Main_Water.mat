@@ -21,22 +21,20 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Main_Water
-  m_Shader: {fileID: -6465566751694194690, guid: 00ffe7d0b7161420897069dc6e12822c,
-    type: 3}
-  m_Parent: {fileID: -876546973899608171, guid: 00ffe7d0b7161420897069dc6e12822c,
-    type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 00ffe7d0b7161420897069dc6e12822c, type: 3}
+  m_Parent: {fileID: -876546973899608171, guid: 00ffe7d0b7161420897069dc6e12822c, type: 3}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - _ALPHATEST_ON
   - _BUILTIN_ALPHATEST_ON
   - _BUILTIN_AlphaClip
   - _BUILTIN_SURFACE_TYPE_TRANSPARENT
+  m_InvalidKeywords:
+  - _ALPHATEST_ON
   - _DOUBLESIDED_ON
   - _ENABLE_FOG_ON_TRANSPARENT
   - _SPECULAR_SETUP
   - _SURFACE_TYPE_TRANSPARENT
   - _TRANSPARENT_WRITES_MOTION_VEC
-  m_InvalidKeywords: []
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 1
@@ -61,6 +59,7 @@ Material:
     - _BUILTIN_QueueControl: 0
     - _BUILTIN_SrcBlend: 5
     - _BUILTIN_ZWrite: 1
+    - _Crest_FoamScale: 6
     - _Crest_SSSDirectionalFalloff: 2
     - _Crest_SSSEnabled: 1
     - _Crest_SSSIntensity: 10
