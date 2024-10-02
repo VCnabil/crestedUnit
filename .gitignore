@@ -14,6 +14,7 @@
 [Ll]ibrary/
 [Bb]in/
 [Oo]bj/
+[Tt]emp/
 
 # Ignore crash reports
 [Ss]ys[Tt]emp/
