@@ -1,0 +1,83 @@
+# This .gitignore file is for Unity projects
+
+# Ignore temporary files
+[Tt]emp/
+*.tmp
+*.bak
+*.swp
+*.swo
+*.log
+
+# Ignore build results
+[Bb]uild/
+[Bb]uilds/
+[Ll]ibrary/
+[Bb]in/
+[Oo]bj/
+
+# Ignore crash reports
+[Ss]ys[Tt]emp/
+
+# Ignore auto-generated Unity files
+[Dd]ebug*/
+[Dd]ocfx/
+*~.meta
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+
+# Ignore Unity auto-generated folders
+[Ll]ogs/
+[Mm]emoryCaptures/
+
+# Ignore asset store tools
+[Aa]sset[Ss]tore/
+
+# Ignore Visual Studio Code files
+.vscode/
+
+# Ignore Rider IDE files
+.idea/
+*.sln.iml
+
+# Ignore OSX generated files
+.DS_Store
+
+# Ignore Windows generated files
+Thumbs.db
+Desktop.ini
+
+# Ignore JetBrains Rider project files
+*.sln.dotSettings
+
+# Ignore Unity meta files
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Ignore compiled files
+*.dll
+*.exe
+*.so
+*.dylib
+*.app
+*.a
+*.lib
+
+# Ignore builds
+*.apk
+*.aab
+
+# Ignore log files
+*.log
+
+# Ignore Unity settings
+ProjectSettings/EditorBuildSettings.asset
+ProjectSettings/ProjectSettings.asset
