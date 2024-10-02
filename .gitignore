@@ -1,4 +1,6 @@
 # This .gitignore file is for Unity projects
+Packages/com.waveharmonic.crest/
+
 
 # Ignore temporary files
 [Tt]emp/
